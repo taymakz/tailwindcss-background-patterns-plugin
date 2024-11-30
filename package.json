@@ -7,11 +7,6 @@
   "files": [
     "src"
   ],
-  "scripts": {
-    "dev": "vitest",
-    "release": "npx np",
-    "test": "vitest run --coverage"
-  },
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -23,6 +18,9 @@
   "devDependencies": {
     "mini-svg-data-uri": "^1.4.4",
     "tailwindcss": "^3.4.15"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">3"
   },
   "keywords": [
     "tailwindcss",
