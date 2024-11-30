@@ -1,0 +1,34 @@
+{
+  "name": "tailwindcss-bg-pattern",
+  "version": "1.0.0",
+  "author": "Taymakz",
+  "description": "A Tailwind CSS plugin for background grid and dot patterns",
+  "main": "src/index.js",
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "dev": "vitest",
+    "release": "npx np",
+    "test": "vitest run --coverage"
+  },
+  "license": "MIT",
+  "repository": "https://github.com/taymakz/tailwindcss-bg-pattern",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "mini-svg-data-uri": "^1.4.4",
+    "tailwindcss": "^3.4.15"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.4.6"
+  },
+  "keywords": [
+    "tailwindcss",
+    "tailwind",
+    "plugin",
+    "background",
+    "patterns"
+  ]
+}
