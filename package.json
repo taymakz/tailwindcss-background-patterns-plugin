@@ -1,5 +1,5 @@
 {
-  "name": "tailwindcss-bg-pattern",
+  "name": "tailwindcss-background-patterns",
   "version": "1.0.0",
   "author": "Taymakz",
   "description": "A Tailwind CSS plugin for background grid and dot patterns",
@@ -21,14 +21,13 @@
     "mini-svg-data-uri": "^1.4.4",
     "tailwindcss": "^3.4.15"
   },
-  "peerDependencies": {
-    "tailwindcss": ">=3.4.6"
-  },
   "keywords": [
     "tailwindcss",
     "tailwind",
     "plugin",
     "background",
-    "patterns"
+    "patterns",
+    "dot pattern",
+    "grid pattern"
   ]
 }
