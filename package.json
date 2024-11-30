@@ -13,7 +13,10 @@
     "test": "vitest run --coverage"
   },
   "license": "MIT",
-  "repository": "https://github.com/taymakz/tailwindcss-bg-pattern",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taymakz/tailwindcss-background-patterns-plugin.git"
+  },
   "publishConfig": {
     "access": "public"
   },
