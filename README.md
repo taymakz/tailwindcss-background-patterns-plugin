@@ -27,6 +27,23 @@ pnpm add -D tailwindcss-background-patterns
 bun add -D tailwindcss-background-patterns
 ```
 
+## Next
+in v4 add following plugin in tailwind.css ( input css )
+```postcss
+@import "tailwindcss";
+
+@plugin "tailwindcss-background-patterns";
+```
+
+in v3 add following plugin in tailwind.config
+```ts
+/** @type {import('tailwindcss').Config} */
+export default {
+ plugins : [
+	require('tailwindcss-background-patterns'),
+	 ]
+}
+```
 ## Usage
 
 ```html
