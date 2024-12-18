@@ -1,6 +1,6 @@
 {
   "name": "tailwindcss-background-patterns",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Taymakz",
   "description": "A Tailwind CSS plugin for background grid and dot patterns",
   "main": "src/index.js",
